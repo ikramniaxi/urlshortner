@@ -1,0 +1,219 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+ .home{
+    font-size:22px !important;
+
+ }
+ .bgMian{
+   background: url(../images/ban4.jpg);
+   height: 600px;
+   width: 100% !important;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   object-fit: cover;
+ }
+ .kutt{
+    font-size: 25px !important;
+    font-weight: bold;
+ }
+  .inputPos{
+   top: 280px;
+   width: 100%;
+  }
+ 
+ .bgClr{
+background-color: #F1F2F4 !important;
+ }
+ .navbar{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+ }
+ .kuttHead{
+    font-size: 38px;
+    color: #B8DE32 !important;
+ }
+ .shorten{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+ }
+ .cardShad{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+ .get{
+   text-align: center;
+   position: relative;
+   color: #00AEEF !important;
+ }
+ 
+ .get:after {
+   content: "";
+   position: absolute;
+   width: 150px; /* Adjust the width of the underline as needed */
+   height: 3px; /* Adjust the thickness of the underline as needed */
+   background-color: #00AEEF; /* Adjust the color of the underline as needed */
+   bottom: -5px; /* Adjust the distance from the text to the little underline */
+      left: 50%;
+      transform: translateX(-50%);
+
+ }
+ .features{
+   position: relative;
+   color: #00AEEF !important;
+ }
+ .features::after{
+   content: "";
+   position: absolute;
+   width: 100px; /* Adjust the width of the underline as needed */
+   height: 3px; /* Adjust the thickness of the underline as needed */
+   background-color: #00AEEF; /* Adjust the color of the underline as needed */
+   bottom: -5px; /* Adjust the distance from the text to the little underline */
+      left: 50%;
+      transform: translateX(-50%);
+ }
+ .faq{
+   position: relative;
+   color: #00AEEF !important;
+
+ }
+ .faq:after{
+   content: "";
+   position: absolute;
+   width: 50px; /* Adjust the width of the underline as needed */
+   height: 3px; /* Adjust the thickness of the underline as needed */
+   background-color: #00AEEF; /* Adjust the color of the underline as needed */
+   bottom: -5px; /* Adjust the distance from the text to the little underline */
+      left: 50%;
+      transform: translateX(-50%);
+
+ }
+ .peopleSay{
+   position: relative;
+   color: #00AEEF !important;
+ }
+ .peopleSay::after{
+   content: "";
+   position: absolute;
+   width: 180px; /* Adjust the width of the underline as needed */
+   height: 3px; /* Adjust the thickness of the underline as needed */
+   background-color: #00AEEF; /* Adjust the color of the underline as needed */
+   bottom: -5px; /* Adjust the distance from the text to the little underline */
+      left: 50%;
+      transform: translateX(-50%);
+ }
+.about::after{
+   content: "";
+   position: absolute;
+   width: 100px; /* Adjust the width of the underline as needed */
+   height: 3px; /* Adjust the thickness of the underline as needed */
+   background-color: #00AEEF; /* Adjust the color of the underline as needed */
+   bottom: -5px; /* Adjust the distance from the text to the little underline */
+      left: 50%;
+      transform: translateX(-50%);
+
+}
+.about{
+   position: relative;
+   color: #00AEEF !important;
+
+}
+
+ .clients{
+   color: #B8DE32 !important;
+   font-style: italic;
+   font-size: 23px !important;
+ }
+
+
+ .sendBtn{
+   background-color: #B8DE32 !important;
+   color: white !important;
+   border-radius: 25px;
+ }
+ .contactUs{
+   color: #B8DE32 !important;
+   font-style: italic;
+   font-size: 23px !important;
+ }
+ .measures{
+   color: #B8DE32 !important;
+ }
+ .contactBg{
+   background-image: url(../images/world-map.png);
+   background-repeat: no-repeat;
+   object-fit: cover;
+   height: 600px;
+   background-position: center;
+   width: 100%;
+ }
+ .kuttPara{
+   font-size: 25px !important;
+   font-style: italic;
+ }
+
+
+ /* slider css start  */
+.img-area{
+   border-radius: 50% !important;
+}
+ .patent-1 {
+   font-size: 40px;
+   font-weight: 700;
+ }
+ .lorem-1 {
+   font-size: 20px;
+   font-weight: 400;
+   color: #000;
+   opacity: 0.9;
+ }
+ 
+.single-box {
+   background-color: #fff;
+   border-radius: 20px;
+   padding: 20px !important;
+ }
+ .user-image1 {
+   border-radius: 70%;
+   object-fit: contain;
+   height: 100px;
+   width: 100px;
+   mix-blend-mode: darken;
+ }
+ .startClr{
+   color: yellow !important;
+ }
+
+
+ @media (max-width: 767px) {
+   .patent-1 {
+     font-size: 26px;
+   }
+   .inputPos{
+      top: 130px !important;
+    }
+    .kuttHead{
+      font-size: 23px !important;
+    }
+   
+ }
+ 
+ @media (max-width: 320px) {
+   .patent-1 {
+     font-size: 25px;
+   }
+}
+ 
+ @media (max-width: 1060px) {
+    .inputPos{
+      top: 150px;
+    }
+}
+ @media (max-width: 580px) {
+    .inputPos{
+      top: 5px !important;
+    }
+}
+
+
+ /* slider css end  */
+  
