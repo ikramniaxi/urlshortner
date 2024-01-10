@@ -4,25 +4,33 @@
     box-sizing: border-box;
 }
  .home{
-    font-size:22px !important;
+    font-size:18px !important;
 
  }
- .bgMian{
+
+ .home:hover{
+  color: #00AEEF !important;
+
+ }
+ .home.active{
+  color: #00AEEF !important;
+ }
+ /* .bgMian{
    background: url(../images/ban4.jpg);
    height: 600px;
    width: 100% !important;
    background-size: 100%;
    background-repeat: no-repeat;
    object-fit: cover;
- }
+ } */
  .kutt{
     font-size: 25px !important;
     font-weight: bold;
  }
-  .inputPos{
+  /* .inputPos{
    top: 280px;
    width: 100%;
-  }
+  } */
  
  .bgClr{
 background-color: #F1F2F4 !important;
@@ -137,6 +145,7 @@ background-color: #F1F2F4 !important;
  }
  .measures{
    color: #B8DE32 !important;
+   font-style: italic;
  }
  .contactBg{
    background-image: url(../images/world-map.png);
@@ -188,9 +197,9 @@ background-color: #F1F2F4 !important;
    .patent-1 {
      font-size: 26px;
    }
-   .inputPos{
+   /* .inputPos{
       top: 130px !important;
-    }
+    } */
     .kuttHead{
       font-size: 23px !important;
     }
@@ -204,14 +213,14 @@ background-color: #F1F2F4 !important;
 }
  
  @media (max-width: 1060px) {
-    .inputPos{
+    /* .inputPos{
       top: 150px;
-    }
+    } */
 }
  @media (max-width: 580px) {
-    .inputPos{
+    /* .inputPos{
       top: 5px !important;
-    }
+    } */
 }
 
 
