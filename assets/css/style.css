@@ -14,7 +14,63 @@
  }
  .home.active{
   color: #00AEEF !important;
+ 
+  
+ 
+  
  }
+ .cardShad:hover {
+  background-color: #00AEEF;
+  color: white !important;
+  transition: .5s ease-in-out !important;
+ }
+ .cardShad:hover i{
+   
+  transform: 0.9ms;
+  color: white !important;
+ }
+
+
+ /* ------------------------------- */
+
+
+ .navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-nav a {
+  position: relative;
+  padding: 3px 15px;
+  font-family: "poppins", sans-serif;
+}
+
+.navbar-nav a::after {
+  content: "";
+  position: absolute;
+  width: 20px; 
+  height: 3px; 
+  background-color: #ff8c006d; 
+  bottom: 0px; 
+  left: 80%;
+  transform: translateX(-50%);
+  transition: left 0.5s ease-in-out; 
+  opacity: 0; 
+}
+
+.navbar-nav a:hover::after {
+  left: 30.5%; 
+  opacity: 1;
+}
+.navbar-nav a.active::after {
+  left: 50%; 
+  opacity: 1; 
+  
+}
+
+ /* ------------------------------- */
+
+
  /* .bgMian{
    background: url(../images/ban4.jpg);
    height: 600px;
@@ -24,13 +80,14 @@
    object-fit: cover;
  } */
  .kutt{
-    font-size: 25px !important;
+    font-size: 30px !important;
     font-weight: bold;
  }
   /* .inputPos{
    top: 280px;
    width: 100%;
   } */
+ 
  
  .bgClr{
 background-color: #F1F2F4 !important;
@@ -40,82 +97,134 @@ background-color: #F1F2F4 !important;
  }
  .kuttHead{
     font-size: 38px;
-    color: #B8DE32 !important;
+    color: #ff8c006d !important;
  }
  .shorten{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #00AEEF;
+    position: relative;
  }
+
+
+ .shorten:hover{
+    /* border-radius: 2rem; */
+    background-color: #00AEEF;
+    transform: skewY(-10deg);
+    /* font-size: 0; */
+    /* padding-block: 1.5rem;
+    padding-inline: 3rem; */
+ }
+
+ .btn.shorten i {
+  display: none; 
+  /* visibility: hidden; */
+  /* position: absolute; */
+  /* transform: skewY(-10deg); */
+
+}
+
+.btn.shorten:hover i {
+  display: inline-block; 
+  /* visibility: visible; */
+}
+
+
+
+
+
+ 
  .cardShad{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
  }
  .get{
-   text-align: center;
-   position: relative;
-   color: #00AEEF !important;
- }
- 
- .get:after {
-   content: "";
-   position: absolute;
-   width: 150px; /* Adjust the width of the underline as needed */
-   height: 3px; /* Adjust the thickness of the underline as needed */
-   background-color: #00AEEF; /* Adjust the color of the underline as needed */
-   bottom: -5px; /* Adjust the distance from the text to the little underline */
-      left: 50%;
-      transform: translateX(-50%);
+  position: relative;
+  color: #00AEEF !important;
 
- }
+}
+.get::after {
+ content: "";
+ position: absolute;
+ width: 210px; 
+ height: 3px; 
+ background-color: #ff8c006d; 
+ bottom: -5px; 
+ left: 50%;
+ transform: translateX(-50%);
+ transition: left 0.3s ease-in-out; 
+}
+
+.get:hover::after {
+ /* left: 46.5%;  */
+}
  .features{
-   position: relative;
-   color: #00AEEF !important;
- }
- .features::after{
-   content: "";
-   position: absolute;
-   width: 100px; /* Adjust the width of the underline as needed */
-   height: 3px; /* Adjust the thickness of the underline as needed */
-   background-color: #00AEEF; /* Adjust the color of the underline as needed */
-   bottom: -5px; /* Adjust the distance from the text to the little underline */
-      left: 50%;
-      transform: translateX(-50%);
- }
+  position: relative;
+  color: #00AEEF !important;
+
+}
+.features::after {
+ content: "";
+ position: absolute;
+ width: 115px; 
+ height: 3px; 
+ background-color: #ff8c006d; 
+ bottom: -5px; 
+ left: 50%;
+ transform: translateX(-50%);
+ transition: left 0.3s ease-in-out; 
+}
+
+/* .features:hover::after {
+ left: 48.5%; 
+} */
+
+
  .faq{
    position: relative;
    color: #00AEEF !important;
 
  }
- .faq:after{
-   content: "";
-   position: absolute;
-   width: 50px; /* Adjust the width of the underline as needed */
-   height: 3px; /* Adjust the thickness of the underline as needed */
-   background-color: #00AEEF; /* Adjust the color of the underline as needed */
-   bottom: -5px; /* Adjust the distance from the text to the little underline */
-      left: 50%;
-      transform: translateX(-50%);
+ .faq::after {
+  content: "";
+  position: absolute;
+  width: 65px; 
+  height: 3px; 
+ background-color: #ff8c006d; 
+  bottom: -5px; 
+  left: 50%;
+  transform: translateX(-50%);
+  transition: left 0.3s ease-in-out; 
+}
 
- }
- .peopleSay{
-   position: relative;
-   color: #00AEEF !important;
- }
- .peopleSay::after{
-   content: "";
-   position: absolute;
-   width: 180px; /* Adjust the width of the underline as needed */
-   height: 3px; /* Adjust the thickness of the underline as needed */
-   background-color: #00AEEF; /* Adjust the color of the underline as needed */
-   bottom: -5px; /* Adjust the distance from the text to the little underline */
-      left: 50%;
-      transform: translateX(-50%);
- }
+/* .faq:hover::after {
+  left: 49%; 
+} */
+.peopleSay{
+  position: relative;
+  color: #00AEEF !important;
+
+}
+.peopleSay::after {
+ content: "";
+ position: absolute;
+ width: 270px; 
+ height: 3px; 
+ background-color: #ff8c009b; 
+ bottom: -5px; 
+ left: 50%;
+ transform: translateX(-50%);
+ transition: left 0.3s ease-in-out; 
+}
+
+/* .peopleSay:hover::after {
+ left: 45%; 
+} */
 .about::after{
    content: "";
    position: absolute;
-   width: 100px; /* Adjust the width of the underline as needed */
-   height: 3px; /* Adjust the thickness of the underline as needed */
-   background-color: #00AEEF; /* Adjust the color of the underline as needed */
-   bottom: -5px; /* Adjust the distance from the text to the little underline */
+   width: 100px; 
+   height: 3px; 
+  background-color: #ff8c006d; 
+   bottom: -5px; 
       left: 50%;
       transform: translateX(-50%);
 
@@ -127,24 +236,63 @@ background-color: #F1F2F4 !important;
 }
 
  .clients{
-   color: #B8DE32 !important;
+   /* color: #B8DE32 !important; */
    font-style: italic;
    font-size: 23px !important;
  }
 
+/* 
 
- .sendBtn{
-   background-color: #B8DE32 !important;
-   color: white !important;
-   border-radius: 25px;
- }
+ /* ----------------------------------------- */
+ .sendBtn {
+  display: inline-block;
+  padding: .75rem 1.25rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  color: #fff !important;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00AEEF;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #0081cc; 
+    transition: all .3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  &:hover {
+    &:before {
+      width: 100%;
+    }
+  }
+}
+
+/* -------------------------------------------- */
+
+
  .contactUs{
-   color: #B8DE32 !important;
+   /* color: #B8DE32 !important; */
    font-style: italic;
    font-size: 23px !important;
  }
  .measures{
-   color: #B8DE32 !important;
+   /* color: #B8DE32 !important; */
    font-style: italic;
  }
  .contactBg{
@@ -189,7 +337,7 @@ background-color: #F1F2F4 !important;
    mix-blend-mode: darken;
  }
  .startClr{
-   color: yellow !important;
+   color: #FF8C00 !important;
  }
 
 
